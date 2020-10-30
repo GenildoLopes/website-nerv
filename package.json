@@ -1,0 +1,15 @@
+{
+  "name": "nerv",
+  "version": "1.0.0",
+  "description": "Nerv Open Source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nerv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
+}
