@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --purple: #A067AB;
+    --bgcolor: #1A1917;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--bgcolor);
+    font-family: 'Roboto';
+    width: 1366px;
+    height: 768px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+nav {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav img {
+    width: 100px;
+}
+
+a {
+    color: var(--purple);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.container img {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 750px;
+}
+
+.container button {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    border-radius: 7px;
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    outline: var(--purple);
+    background: var(--bgcolor);
+}
+
+.container button:hover {
+    background: var(--purple);
+    color: var(--bgcolor);
+    transition: 0.5s;
+}
+
+.square1 {
+    position: absolute;
+    width: 554.19px;
+    height: 569.28px;
+    top: 550px;
+    left: -300px;
+    
+    background: var(--purple);
+    border-radius: 50px;
+    transform: rotate(-40deg);
+}
+
+.square2 {
+    position: absolute;
+    width: 697.49px;
+    height: 898.11px;
+    top: -350px;
+    right: -400px;
+    
+    background: var(--purple);
+    border-radius: 50px;
+    transform: rotate(-50deg);
+}
+
+.title {
+    position: static;
+    width: 524px;
+    height: 42px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+    
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    position: static;
+    width: 513px;
+    height: 198px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.description p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
