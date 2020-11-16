@@ -4,7 +4,6 @@
     --purple: #A067AB;
     --bgcolor: #1A1917;
 }
-
 * {
     padding: 0;
     margin: 0;
@@ -25,6 +24,11 @@ nav {
     margin-top: 20px;
 }
 
+nav a {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 nav img {
     width: 100px;
 }
@@ -34,13 +38,9 @@ a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 23px;
     text-decoration: none;
-
-    display: flex;
-    align-items: center;
-    margin-left: 75px;
 }
 
 .container img {
@@ -50,11 +50,10 @@ a {
     width: 750px;
 }
 
-.container button {
+button {
     width: 250px;
     height: 40px;
     font-size: 14px;
-    margin-left: 100px;
     margin-top: 30px;
 
     font-family: Roboto;
@@ -69,7 +68,7 @@ a {
     background: var(--bgcolor);
 }
 
-.container button:hover {
+button:hover {
     background: var(--purple);
     color: var(--bgcolor);
     transition: 0.5s;
@@ -99,12 +98,36 @@ a {
     transform: rotate(-50deg);
 }
 
+.square3 {
+    position: absolute;
+    width: 554.19px;
+    height: 569.28px;
+    top: 400px;
+    left: -300px;
+    
+    background: var(--purple);
+    border-radius: 50px;
+    transform: rotate(-40deg);
+}
+
+.square4 {
+    position: absolute;
+    width: 697.49px;
+    height: 898.11px;
+    top: -600px;
+    right: -400px;
+    
+    background: var(--purple);
+    border-radius: 50px;
+    transform: rotate(-50deg);
+}
+
 .title {
     position: static;
     width: 524px;
     height: 42px;
     margin-left: 50px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
     
 h3 {
@@ -115,26 +138,51 @@ h3 {
     line-height: 66px;
     display: flex;
     align-items: center;
+
+    background: linear-gradient(90deg, rgba(93,84,164,1) 0%, rgba(160,103,171,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .description {
     position: static;
-    width: 513px;
+    width: 100px;
     height: 198px;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 50px;
-
 }
 
 .description p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 33px;
     
     display: flex;
     align-items: center;
     
     color: #FFFFFF;
+}
+
+p {
+    color: #fff;
+    width: 1000px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.container-about {
+    margin-left: 460px;
+    margin-top: 50px;
+}
+
+.container-about img {
+    width: 400px;
+}
+
+.container-about p {
+    margin-left: -100px;
+    width: 600px;
 }
