@@ -3,36 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NERV Open Source</title>
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <div class="square1"></div>
-    <div class="square2"></div>
-    <nav>
-        <img src="./assets/logotipo.png">
-        <a href="../index.html">Home</a>
-        <a href="./pages/about.html">About</a>
-        <a href="./pages/projects.html">Projects</a>
-        <a href="https://nerv-blog.vercel.app">Blog</a>
-    </nav>
+    <header>
+        <nav>
+            <div class="container">
+                <h3 class="logo">Nerv<span> Open Source</span></h3>
+                <div class="hamburger-menu">
+                    <a href="#about" id="about">About us</a>
+                    <a href="https://discord.gg/nyTRNSV" target="_blank">Discord</a>
+                    <a>|</a>
+                    <a onclick="ptbr()">PT-BR</a>
+                    <a onclick="enus()">EN-US</a>
+                </div>
+            </div>
+        </nav>
 
-    <div class="container">
-        <div class="title">
-            <h3>NERV Open Source</h3>
-        </div>
-        <div class="description">
-            <p>The idea of ​​the project is very straightforward <br>
-                to help everyone and everything - including at <br>
-                all levels. The idea is that everyone can get <br>
-                to know each other and can participate in several <br>
-                projects that bring the community together in <br>
-                many different ways.</p>
-            <button style="margin-left: 180px;" onclick="window.open('https://discord.gg/pZdN8jTmKA')">Join us to Discord</button>
-        </div>
+        <img src="assets/discord.png" class="background" data-speed="-0.25" alt="">
+    </header>
 
-        <img src="./assets/studying-purple.png">
-    </div>
+    <section>
+        <div class="shadow"></div>
+
+        <div id="about" class="container">
+            <div class="content opacity">
+                <h3 class="title" id="title">
+                    Do you know NERV Open Source? 
+                    <div class="border"></div>
+                </h3>
+                <p class="text" id="subject">
+                    The idea of ​​the project is very straightforward to help everyone and everything - including at all levels.<br><br>
+                    Do you have a project idea? So, congratulations, you will be his new leader, now call the members who are available to participate in your Open Source project and make it happen.<br><br> 
+                    The idea is that everyone can get to know each other and can participate in several projects that bring the community together in many different ways.<br><br>
+                    Know our founder, <a href="https://yagasaki.netlify.com" target="_blank">Anderson "Yagasaki" Marlon</a></p>
+            </div>
+
+            <div class="imgContainer opacity">
+                <a href="https://discord.gg/nyTRNSV" target="_blank"><img src="assets/nerv.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="src/script.js"></script>
 </body>
 </html>
