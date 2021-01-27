@@ -95,6 +95,17 @@ a {
     height: 16px;
 }
 
+@media(max-width: 512px){
+
+    .container {
+        padding: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
 .bar{
     position: relative;
     width: 1.2rem; 
