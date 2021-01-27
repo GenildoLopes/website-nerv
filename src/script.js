@@ -45,3 +45,9 @@ function enus() {
     document.getElementById('title').innerHTML = 'Do you know NERV Open Source?'
     document.getElementById('subject').innerHTML = 'The idea of ​​the project is very straightforward to help everyone and everything - including at all levels.<br><br>Do you have a project idea? So, congratulations, you will be his new leader, now call the members who are available to participate in your Open Source project and make it happen.<br><br> The idea is that everyone can get to know each other and can participate in several projects that bring the community together in many different ways.<br><br>Know our founder, <a href="https://yagasaki.netlify.com" target="_blank">Anderson "Yagasaki" Marlon</a>'
 }
+
+function span() {
+    document.getElementById('about').innerHTML = 'Acerca de'
+    document.getElementById('title').innerHTML = '¿Conoce NERV Open Source?'
+    document.getElementById('subject').innerHTML = 'La idea del proyecto es muy sencilla para ayudar a todos ya todo, incluso a todos los niveles. <br> <br> ¿Tienes una idea de proyecto? Entonces, enhorabuena, serás su nuevo líder, ahora llama a los miembros que están disponibles para participar en tu proyecto Open Source y haz que suceda. <br> <br> La idea es que todos puedan conocerse y participar en varios proyectos que unen a la comunidad de muchas formas diferentes. <br> <br> Conozca a nuestro fundador, <a href="https://yagasaki.netlify.com" target="_blank"> Anderson "Yagasaki" Marlon </a>'
+}
