@@ -89,6 +89,7 @@ nav .container{
 
 a {
     text-decoration: none;
+    color: cyan;
 }
 
 .img-flag {
@@ -227,7 +228,7 @@ section .container > *{
     }
 
     .text{
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     .title{
